@@ -1,0 +1,107 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .search {
+    display: flex;
+    align-items: center;
+}
+
+nav .search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+nav .search button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('/images/hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero .stars {
+    font-size: 24px;
+}
+
+.hero .buy-now {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .buy-now:hover {
+    background-color: #45a049;
+}
+
+/* Product List Section */
+.products {
+    padding: 50px;
+}
+
+.products h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products ul {
+    list-style-type: none;
+}
+
+.products ul li {
+    margin-bottom: 10px;
+}
